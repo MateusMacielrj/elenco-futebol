@@ -1,0 +1,124 @@
+/* ================= FOOTER BASE ================= */
+footer{
+  width:100%;
+  background:#000;
+  color:white;
+  padding:3rem 1.5rem 1.5rem;
+  margin-top:5rem;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+/* CONTAINER CENTRAL */
+.footer-container{
+  max-width:1200px;
+  margin:auto;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:2.5rem;
+}
+
+/* ================= BLOCO TEXTO ================= */
+.explicativo h2{
+  font-size:1.6rem;
+  margin-bottom:0.5rem;
+}
+
+.explicativo p{
+  color:#bdbdbd;
+  max-width:420px;
+  line-height:1.6;
+}
+
+/* ================= NAVS ================= */
+.footer-container nav ul{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:0.9rem;
+  padding:0;
+}
+
+.footer-container nav li{
+  display:flex;
+  align-items:center;
+  gap:0.6rem;
+  justify-content:center;
+}
+
+/* LINKS */
+.footer-container nav a{
+  text-decoration:none;
+  color:#e5e5e5;
+  transition:0.3s;
+}
+
+.footer-container nav a:hover{
+  color:#00ff5e;
+}
+
+/* ICONES */
+footer img{
+  width:18px;
+}
+
+/* ================= DIREITOS ================= */
+.direitos{
+  margin-top:3rem;
+  padding-top:1rem;
+  text-align:center;
+  font-size:0.85rem;
+  color:#9a9a9a;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+/* ================= TABLET ================= */
+@media (min-width:768px){
+
+  .footer-container{
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:left;
+    align-items:flex-start;
+  }
+
+  .footer-container nav ul{
+    align-items:flex-start;
+  }
+
+  .footer-container nav li{
+    justify-content:flex-start;
+  }
+
+  .footer-container nav {
+  margin-right: 5rem;
+  margin-top: 11rem;
+ }
+}
+
+
+/* ================= DESKTOP ================= */
+@media (min-width:1024px){
+
+  .explicativo h2{
+    font-size:1.8rem;
+  }
+
+  .explicativo p{
+    font-size:1rem;
+  }
+
+ .footer-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .footer-container nav {
+  margin-right: 5rem;
+  margin-top: 10rem;
+ }
+}

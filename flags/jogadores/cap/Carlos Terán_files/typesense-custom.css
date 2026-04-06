@@ -1,0 +1,110 @@
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item .cmswt-IndexSwitcher-link {
+    font-size: 1.8rem !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item.active .cmswt-IndexSwitcher-link{
+    color: #E40000 !important;
+}
+
+.typesense .cmswt-InstantSearch .ais-Pagination-item--selected .ais-Pagination-link {
+    background-color: #E40000 !important;
+}
+
+.typesense .cmswt-InstantSearch .ais-SearchBox-form:after {
+    display: none;
+}
+
+.typesense .cmswt-Results .hit-link a {
+    font-size: 1.5rem !important;
+}
+
+.typesense .ais-Hits-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.typesense .hit-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.typesense .hit-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.typesense .hit-wrapdesc {
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.typesense .cmswt-Results {
+    padding-top: 2rem;
+    padding-inline: 4rem;
+}
+
+.typesense .ais-Pagination {
+    padding-top: 4rem !important;
+}
+
+.typesense .cmswt-InstantSearch .ais-Pagination-link {
+    font-size: 1.5rem !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item.active {
+    transition: all 0.3s ease !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item.active .cmswt-IndexSwitcher-link {
+    font-weight: bold !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item.active .cmswt-IndexSwitcher-link:before {
+    color: #E40000 !important;
+}
+
+.typesense .cmswt-InstantSearch .ais-Pagination-link:hover {
+    background: #E40000 !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item {
+    transition: all 0.3s ease !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item:not(.active) {
+    opacity: 0.7 !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-IndexSwitcher-item:not(.active):hover {
+    opacity: 1 !important;
+}
+
+.typesense .cmswt-InstantSearch .cmswt-noSearchResults {
+    font-size: 2rem;
+}
+
+.typesense .hit-contents.page-result {
+    position: relative;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.typesense .hits-link {
+    font-size: 2rem !important;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.typesense .cmswt-Result.cmswt-Result-page .cmswt-Result-hits .ais-Hits-list.cm-col-3 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 20px;
+}

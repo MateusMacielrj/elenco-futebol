@@ -1,0 +1,120 @@
+/* ========================= */
+/* RESET */
+/* ========================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ========================= */
+/* CONTAINER DOS CLUBES */
+/* ========================= */
+.clubes-container {
+  display: grid;
+  grid-template-columns: 1fr; /* mobile */
+  gap: 20px;
+  padding: 1rem;
+}
+
+/* ========================= */
+/* CARD */
+/* ========================= */
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+  margin-top: 2rem;
+
+  width: 100%;
+  height: 16rem;
+
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* IMAGEM */
+article img {
+  width: 5rem;
+  transition: transform 0.3s ease;
+}
+
+/* TEXTO */
+article h3 {
+  font-size: 1.1rem;
+}
+
+article p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* HOVER */
+article:hover {
+  border: 1px solid #11AD32;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(17, 173, 50, 0.4);
+}
+
+article:hover img {
+  transform: scale(1.1);
+}
+
+/* ========================= */
+/* 📱 TABLET (768px+) */
+/* ========================= */
+@media (min-width: 768px) {
+  .clubes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article {
+    height: 17rem;
+    border: solid;
+   
+  }
+}
+
+/* ========================= */
+/* 💻 LAPTOP (1024px+) */
+/* ========================= */
+@media (min-width: 1024px) {
+  .clubes-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  article {
+    height: 18rem;
+  }
+}
+
+/* ========================= */
+/* 🖥️ DESKTOP (1280px+) */
+/* ========================= */
+@media (min-width: 1280px) {
+  .clubes-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ========================= */
+/* 🖥️ TELAS GRANDES (1440px+) */
+/* ========================= */
+@media (min-width: 1440px) {
+  .clubes-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

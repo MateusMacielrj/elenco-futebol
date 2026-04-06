@@ -1,0 +1,84 @@
+/* RESET GLOBAL */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+/* ESPAÇO PARA HEADER FIXO */
+main{
+  margin-top:6rem;
+}
+
+/* ================= HEADER ================= */
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:6rem;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:0 3rem;
+  z-index:1000;
+
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(8px);
+  border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+/* LOGO */
+header h1{
+  font-size:1.6rem;
+  color:white;
+  font-weight:600;
+}
+
+/* MENU */
+header nav ul{
+  display:flex;
+  gap:40px;
+  list-style:none;
+}
+
+/* LINKS (remove underline aqui 👇) */
+header nav a{
+  text-decoration:none;
+  color:#ddd;
+  font-weight:500;
+  font-size:1.05rem;
+  transition:0.3s;
+}
+
+/* HOVER */
+header nav a:hover{
+  color:#0e881a;
+}
+
+/* ================= RESPONSIVO ================= */
+
+/* TABLET */
+@media (max-width:768px){
+
+  header{
+    padding:0 1.5rem;
+  }
+
+  /* Esconde menu no mobile */
+  header nav{
+    display:none;
+  }
+
+  /* Centraliza logo no mobile */
+  header{
+    justify-content:center;
+  }
+}
