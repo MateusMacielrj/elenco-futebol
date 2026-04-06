@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Live-Match" transform="translate(-280.000000, -19.000000)">
+            <g id="Header">
+                <g id="search" transform="translate(280.000000, 19.000000)">
+                    <path d="M9.5,19 C4.25329488,19 0,14.7467051 0,9.5 C0,4.25329488 4.25329488,0 9.5,0 C14.7467051,0 19,4.25329488 19,9.5 C19,14.7467051 14.7467051,19 9.5,19 Z M9.5,16.9900701 C13.6366515,16.9900701 16.9900701,13.6366515 16.9900701,9.5 C16.9900701,5.36334849 13.6366515,2.00992987 9.5,2.00992987 C5.36334849,2.00992987 2.00992987,5.36334849 2.00992987,9.5 C2.00992987,13.6366515 5.36334849,16.9900701 9.5,16.9900701 Z" id="icon" fill="#000000"></path>
+                    <path d="M14,16 L19,22" id="Path-7" stroke="#000000" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

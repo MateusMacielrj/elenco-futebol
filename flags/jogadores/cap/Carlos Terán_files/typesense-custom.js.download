@@ -1,0 +1,8 @@
+const typesenseContainer = document.querySelector('.typesense');
+search.on('render', () => {
+    if (searches[0].collection === 'data') {
+        typesenseContainer.setAttribute('data-collection', 'data');
+    } else {
+        typesenseContainer.removeAttribute('data-collection');
+    }
+});
